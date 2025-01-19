@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Título */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #1db954;
+  }
+  
+  /* Input de búsqueda */
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Botón de búsqueda */
+  button {
+    padding: 10px 20px;
+    background-color: #1db954;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #14833b;
+  }
+  
+  /* Contenedor de resultados */
+  #results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  /* Cada canción */
+  #results div {
+    background-color: #292929;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Imagen del álbum */
+  #results img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Nombre de la canción y artista */
+  #results strong {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Botón de reproducción */
+  #results button {
+    margin-top: 10px;
+    background-color: #1db954;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #results button:hover {
+    background-color: #14833b;
+  }
+  
